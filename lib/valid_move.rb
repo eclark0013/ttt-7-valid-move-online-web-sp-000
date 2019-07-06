@@ -15,3 +15,8 @@ end
 def good_number(index)
   index.between?(0, 8)
 end
+
+def input_to_index(input)
+  input = input.to_i
+  input-1
+end
